@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    padding-top: 120px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 80px;
+    margin-right: 20px;
+}
+
+header h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(11, 11, 100);
+}
+
+form button{
+    background-color: rgb(11, 11, 100);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form input{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+form{
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    text-align: center;
+    font-size: 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+table img{
+    height: 30px;
+}
+
+.adicionado{
+    background-color: rgb(11, 11, 100);
+}
+
